@@ -4,7 +4,7 @@
 \title{Brian Ballsun-Stanton}
 \author{Data Scientist \& Solutions Architect (Digital Humanities)}
 %\date{\today}
-\institute{Faculty of Arts, Macquarie University~\textbullet~\tt{brian.ballsun-stanton@mq.edu.au} }
+\institute{Faculty of Arts, Macquarie University~\textbullet~{\tt brian.ballsun-stanton@mq.edu.au\\https://orcid.org/0000-0003-4932-7912} }
 
 \usepackage{blindtext}
 \usepackage{comment}
@@ -29,7 +29,7 @@
 \makeatletter
 \renewcommand\TP@maketitle{%
    \centering
-    \tikz[remember picture,overlay]\node[scale=0.8,anchor=east,xshift=0.46\linewidth,yshift=2.45cm,inner sep=0pt] {%
+    \tikz[remember picture,overlay]\node[scale=0.8,anchor=east,xshift=0.46\linewidth,yshift=2.85cm,inner sep=0pt] {%
        \@titlegraphic
     };
    \begin{minipage}[b]{0.8\linewidth}
@@ -41,7 +41,7 @@
         \vspace*{1em}
         { \@institute}
     \end{minipage}%
-     \tikz[remember picture,overlay]\node[scale=0.8,anchor=east,xshift=0.18\linewidth,yshift=2.45cm,inner sep=0pt] {%
+     \tikz[remember picture,overlay]\node[scale=0.8,anchor=east,xshift=0.18\linewidth,yshift=2.85cm,inner sep=0pt] {%
        \includegraphics[width=0.2\linewidth]{images/MQ_MAS_VER_RGB_REV.png}
     };
     
@@ -70,7 +70,7 @@
 {
 \begin{itemize}
     \item OS: \textbf{Ubuntu} (Desktop and Server)
-    \item Automation: \textbf{Ansible, BASH, Github's Deployment Pipelines and TravisCI}
+    \item Automation: \textbf{Ansible, bash, Github's Deployment Pipelines,} and \textbf{TravisCI}
     \item Languages: \textbf{SQL, Python, Jekyll/Markdown}
     \item Code Development: \textbf{Sublime Text, Jupyter Notebooks}
     \item Reference Management: \textbf{Paperpile -> Bib\TeX{}}
@@ -80,7 +80,7 @@
 }
 \block{My favourite tools}
 {
-\textbf{Spatialite} for \textbf{SQLite}; \textbf{Git}; \textbf{*\TeX} (and overleaf) for typesetting \textit{everything}; \textbf{Floobits} for shared code composition; A nice mechanical keyboard for extra-clacky-typing; \textbf{SpiderOak ONE} for backups; \textbf{Bay Coffee} for a really consistent roast; \textbf{Tenjin} for Openstack based compute; \textbf{Yubikeys} for hardware security tokens; \textbf{Lastpass} for a password manager along with 5d6 and \textbf{Diceware} for generating passwords; 
+\textbf{Spatialite} for \textbf{SQLite}; \textbf{Git}; \textbf{*\TeX} (and overleaf) for typesetting \textit{everything}; \textbf{Floobits} for shared code composition; A nice mechanical keyboard for extra-clacky-typing; \textbf{SpiderOak ONE} for backups; \textbf{Bay Coffee} for a really consistent roast; \textbf{Tenjin} for Openstack based compute; \textbf{Yubikeys} for hardware security tokens; \textbf{Lastpass} for a password manager along with 5d6 and \textbf{Diceware} for generating passwords.  
 }
 \block{I've got my eye on}
 {
@@ -124,6 +124,14 @@
 %     \column{0.5}
 %     \block{Description of the figure}{\blindtext}
 \end{columns}
+
+
+\node [above right,
+       outer sep=0pt,
+       minimum width=\paperwidth-2*\pgflinewidth,
+       minimum height=0.5cm,
+       align=center,font=\small] at ([shift={(0.5*\pgflinewidth,0.5*\pgflinewidth)}]bottomleft) {\tt{https://github.com/Denubis/Resbaz-2019-Poster} \includegraphics[height=14pt]{images/Cc-by-icon.png}\\
+};
 
 
 \end{document}
